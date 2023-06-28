@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(330deg, #FFCCCC, #CCFFFF);
+    border-radius: 25px;
+    height: 450px;
+    width: 500px
+
+}
+
+
+.sign-in-tag{
+    font-size: 2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.username-tag{
+    font-size: 1.2em;
+    border-radius: 25px;
+    border:1px solid#FFCCCC;
+    height: 40px;
+    width: 245px;
+    padding-left: 20px;
+    
+}
+
+.password-tag{
+    font-size: 1.2em;
+    border-radius: 25px;
+    border:1px solid#CCFFFF;
+    height: 40px;
+    width: 245px;
+    padding-left: 20px;
+}
+
+
+.remember-me-tag{
+    color: gray;
+}
+
+.rem-pass-tag{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button-sign-in-tag{
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFCCCC;
+    color: white;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s;
+}
+
+.button-sign-in-tag:hover{
+    background-color: #CCFFFF;
+    border: 1px solid #FFCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+.register-tag{
+    color: gray;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}

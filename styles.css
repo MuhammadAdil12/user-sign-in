@@ -35,7 +35,7 @@ body{
     height: 40px;
     width: 245px;
     padding-left: 20px;
-    
+
 }
 
 .password-tag{
@@ -53,9 +53,9 @@ body{
 }
 
 .rem-pass-tag{
-    width: 250px;
+    width: 265px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 

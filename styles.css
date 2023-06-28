@@ -52,8 +52,9 @@ body{
 
 .remember-me-tag{
     color: gray;
-    flex-shrink: 2;
+
 }
+
 
 .rem-pass-tag{
     width: 275px;
@@ -92,4 +93,13 @@ body{
 a{
     color: gray;
     text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .rem-pass-tag{
+        width: 275px;
+        display: flex;
+        justify-content: space-between;
+        font-size: small;
+    }
 }

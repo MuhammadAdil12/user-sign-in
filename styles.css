@@ -6,7 +6,7 @@ body{
     background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
 }
 
-
+/* container */
 
 .container{
     display: flex;
@@ -17,17 +17,18 @@ body{
     border-radius: 25px;
     height: 450px;
     width: 500px
+    
 
 }
 
-
+/* Sign in class */
 .sign-in-tag{
     font-size: 2em;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
-
+/* username input class */
 .username-tag{
     font-size: 1.2em;
     border-radius: 25px;
@@ -39,6 +40,7 @@ body{
 
 }
 
+/* password input class */
 .password-tag{
     font-size: 1.2em;
     border-radius: 25px;
@@ -49,20 +51,27 @@ body{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-
+/*remember me class */
 .remember-me-tag{
     color: gray;
 
 }
+.forget-password-tag{
+    padding-top: 3px;
+}
 
 
-.rem-pass-tag{
+
+
+/* div that include remember me text and forgot password text */
+.remember-password-tag{
     width: 275px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+/*Sign in button class*/
 
 .button-sign-in-tag{
     height: 40px;
@@ -76,6 +85,7 @@ body{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+
 .button-sign-in-tag:hover{
     background-color: #CCFFFF;
     border: 1px solid #FFCCCC;
@@ -85,21 +95,21 @@ body{
 }
 
 
-
+/* register class */
 
 .register-tag{
     color: gray;
 }
+
 a{
     color: gray;
     text-decoration: none;
 }
 
+
 @media (max-width: 600px){
-    .rem-pass-tag{
-        width: 260px;
-        display: flex;
-        justify-content: space-between;
+    .remember-password-tag{
         font-size: 15px;
     }
 }
+

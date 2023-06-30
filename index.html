@@ -7,19 +7,18 @@
     <title>User Sign-in</title>
 </head>
 <body>
-    <div class="body"></div>
-    <div class ="container">
-        <div class="sign-in-tag"><span class="icon"></span>Sign-in</div>
-        <input type="text" placeholder ="Username" required class="username-tag">
-        <input type="password" placeholder="Password" required class = "password-tag">
+    <form class ="container">
+        <div class="sign-in-tag">Sign-in</div>
+        <input type="email" placeholder ="Username" class="username-tag" required >
+        <input type="password" placeholder="Password" class = "password-tag" required >
 
-        <div class="rem-pass-tag">
+        <div class="remember-password-tag">
         <label class="remember-me-tag"><input type="checkbox" class="checkbox-tag">Remember me</label>
         <a href="#" class="forget-password-tag">Forgot password?</a>
         </div>
 
         <button type="submit" class="button-sign-in-tag">Sign-in</button>
         <div class="register-tag">Don't have an account?<a href="#"><strong> Register</strong></a></div>
-    </div>
+    </form>
 </body>
 </html>

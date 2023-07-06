@@ -90,8 +90,8 @@ body{
 
 
 .button-sign-in-tag:hover{
-    background-color: #CCFFFF;
-    border: 1px solid #FFCCCC;
+    background-color: #e75c4d;
+    border: 1px solid #e75c4d;
     color: black;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 3px 5px;

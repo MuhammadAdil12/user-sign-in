@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(35deg, #f2bc94, #EC8B5E);
+    background: linear-gradient(35deg, #c93828, #EC8B5E);
 }
 
 /* container */
@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(330deg, #EC8B5E, #e5ab9f);
+    background: linear-gradient(330deg, #EC8B5E, #e25343);
     border-radius: 25px;
     height: 450px;
     width: 500px
@@ -80,7 +80,7 @@ body{
     height: 40px;
     width: 120px;
     border-radius: 25px;
-    background-color: rgb(231, 92, 77);
+    background-color: #e75c4d;
     color: white;
     font-size: 18px;
     border: none;

@@ -3,14 +3,12 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image:url(pro-06.jpeg);
+    ;
+    background: linear-gradient(90deg, hsla(191, 86%, 49%,0.80) , hsla(356, 90%, 64%, 0.80)
+    ), url(pro-06.jpeg);
+
 }
 
-
-body{
-    background: linear-gradient(90deg, #12C2E9 , #F64F59
-    );
-}
 
 /* container */
 
@@ -19,7 +17,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(360deg, #12C2E9 , #de4650);
+    background: linear-gradient(90deg, hsla(191, 86%, 49%,0.80) , hsla(356, 90%, 64%, 0.80)
+    ), url(code-03-oic.jpg) no-repeat center center/cover;
     border-radius: 25px;
     height: 450px;
     width: 500px

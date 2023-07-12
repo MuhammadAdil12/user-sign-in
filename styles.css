@@ -3,7 +3,13 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(35deg, #c93828, #EC8B5E);
+    background-image:url(pro-06.jpeg);
+}
+
+
+body{
+    background: linear-gradient(90deg, #12C2E9 , #F64F59
+    );
 }
 
 /* container */
@@ -13,7 +19,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(330deg, #EC8B5E, #e25343);
+    background: linear-gradient(360deg, #12C2E9 , #de4650);
     border-radius: 25px;
     height: 450px;
     width: 500px
